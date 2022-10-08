@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="&lt;&lt; Menu checklist"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/menucheck"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="16sp" />
+        <TextView
+            android:text="&lt; Menu checklist"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item"
+            android:padding="5dp"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/space4" />
+    <TextView
+        android:text="Atribua uma nota:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/atrbnota" />
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:id="@+id/pergunta"
+        android:gravity="fill"
+        android:textSize="16sp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/space3" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linearLayout1"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="Muito ruim"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bn"
+                android:id="@+id/btnMtoRuim"
+                android:textSize="12sp" />
+            <Button
+                android:text="Ruim"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bn"
+                android:id="@+id/btnRuim"
+                android:textSize="12sp" />
+            <Button
+                android:text="Regular"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bns"
+                android:id="@+id/btnRegular"
+                android:textSize="12sp" />
+            <Button
+                android:text="Bom"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bs"
+                android:id="@+id/btnBom"
+                android:textSize="12sp" />
+            <Button
+                android:text="Muito bom"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bs"
+                android:id="@+id/btnMtoBom"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:id="@+id/space2" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3">
+            <Button
+                android:text="Voltar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/voltar" />
+            <Button
+                android:text="Próximo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/proximo" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
